@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[那些年搭博的血泪史(一)]]></title>
-    <url>%2F2018%2F11%2F18%2F%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%90%AD%E5%8D%9A%E7%9A%84%E8%A1%80%E6%B3%AA%E5%8F%B2%2F</url>
-    <content type="text"></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
+    <title><![CDATA[image_text]]></title>
+    <url>%2F2018%2F11%2F18%2Fimage-text%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>%2F2018%2F11%2F18%2F%E5%AE%89%E8%A3%85%2F</url>
+    <content type="text"><![CDATA[[TOC] 安装安装 Node.js 环境 何为Node.js? Node.js是一個能夠在伺服器端運行JavaScript的開放原始碼、跨平台JavaScript 執行環境 安装网址：https://nodejs.org/en/ 查看是否安装成功：打开 cmd 命令行(win+r 输入 cmd 回车)执行 ： 12node -vnpm -v 安装成功之后显示版本号： 安装git安装hedox安装主题同步到github]]></content>
   </entry>
   <entry>
     <title><![CDATA[two]]></title>
