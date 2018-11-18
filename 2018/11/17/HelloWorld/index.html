@@ -625,9 +625,9 @@
   
 
   
-      <div id="gitalk-container"></div>
-      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">	   	
-	
+    <div id="gitalk-container"></div>
+
+		
   
 
 
@@ -952,26 +952,20 @@
 
 
 
-  
-    
-      <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-      <script type="text/javascript">
-        const gitalk = new Gitalk({
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
           clientID: '9e73fada1475ebce36bd',
           clientSecret: '3ad6d1d6972c2aad68460dd874deec7b907a5fd2',
           repo: 'Gitalk',
           owner: 'Love-H',
-          admin: 'Love-H'.split(','),
-          id: '1542460430000', #����ǻ�������ʱ�䴴�� Issues ��Ĭ���������±�����Ϊ��ǩ���� Issues �ᵼ�³������ʼ��ʧ�ܡ�
-          pagerDirection: 'last',
-          // facebook-like distraction free mode
-          distractionFreeMode: false
+          admin: ['Love-H'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
         })
-        gitalk.render('gitalk-container')
-      </script>
-    
-  
-
+        gitalk.render('gitalk-container')           
+       </script>
 
   
 

@@ -131,7 +131,7 @@
 
 
 
-  <meta name="keywords" content="java,c,html">
+  <meta name="keywords" content="c,java,html">
 <meta property="og:type" content="article">
 <meta property="og:title" content="myFristPageForTag">
 <meta property="og:url" content="http://yoursite.com/2018/11/18/myFristPageForTag/index.html">
@@ -539,9 +539,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/java/" rel="tag"># java</a>
-          
             <a href="/tags/c/" rel="tag"># c</a>
+          
+            <a href="/tags/java/" rel="tag"># java</a>
           
             <a href="/tags/html/" rel="tag"># html</a>
           
@@ -593,9 +593,9 @@
   
 
   
-      <div id="gitalk-container"></div>
-      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">	   	
-	
+    <div id="gitalk-container"></div>
+
+		
   
 
 
@@ -920,26 +920,20 @@
 
 
 
-  
-    
-      <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-      <script type="text/javascript">
-        const gitalk = new Gitalk({
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
           clientID: '9e73fada1475ebce36bd',
           clientSecret: '3ad6d1d6972c2aad68460dd874deec7b907a5fd2',
           repo: 'Gitalk',
           owner: 'Love-H',
-          admin: 'Love-H'.split(','),
-          id: '1542508688000', #����ǻ�������ʱ�䴴�� Issues ��Ĭ���������±�����Ϊ��ǩ���� Issues �ᵼ�³������ʼ��ʧ�ܡ�
-          pagerDirection: 'last',
-          // facebook-like distraction free mode
-          distractionFreeMode: false
+          admin: ['Love-H'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
         })
-        gitalk.render('gitalk-container')
-      </script>
-    
-  
-
+        gitalk.render('gitalk-container')           
+       </script>
 
   
 
