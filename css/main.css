@@ -447,6 +447,9 @@ body {
   position: relative;
   min-height: 100%;
 }
+.site-author-name {
+  text-align: center;
+}
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
@@ -1941,7 +1944,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #da615b;
+  background: #dfe;
 }
 .links-of-blogroll {
   font-size: 13px;

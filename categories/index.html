@@ -141,8 +141,6 @@
 <meta name="twitter:title" content="分类&#x2F;标签">
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="LH" type="application/atom+xml">
 
@@ -507,9 +505,9 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="I come, I see, I conquer!">
+              <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="I">
             
-              <p class="site-author-name" itemprop="name">I come, I see, I conquer!</p>
+              <p class="site-author-name" itemprop="name">I</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -657,7 +655,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">I come, I see, I conquer!</span>
+  <span class="author" itemprop="copyrightHolder">I</span>
 
   
 
@@ -805,20 +803,25 @@
 
 
 
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-   <script type="text/javascript">
-        var gitalk = new Gitalk({
-          clientID: '9e73fada1475ebce36bd',
-          clientSecret: '3ad6d1d6972c2aad68460dd874deec7b907a5fd2',
-          repo: 'Gitalk',
-          owner: 'Love-H',
-          admin: ['Love-H'],
-          id: location.pathname,
-          distractionFreeMode: 'true'
-        })
-        gitalk.render('gitalk-container')           
-       </script>
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
+        <script type="text/javascript">
+            const gitalk = new Gitalk({
+            clientID: '',
+            clientSecret: '',
+            repo: 'Gitalk',
+            owner: '',
+            admin: ''.split(','),
+            pagerDirection: 'last',
+            id: md5(window.location.pathname),
+            distractionFreeMode: false
+            })
+            gitalk.render('gitalk-container')
+        </script>
+        
+    
 
   
 
