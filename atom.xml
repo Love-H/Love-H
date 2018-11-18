@@ -46,9 +46,9 @@
     </summary>
     
     
-      <category term="c" scheme="http://yoursite.com/tags/c/"/>
-    
       <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+      <category term="c" scheme="http://yoursite.com/tags/c/"/>
     
       <category term="html" scheme="http://yoursite.com/tags/html/"/>
     
