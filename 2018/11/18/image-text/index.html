@@ -139,7 +139,6 @@
 <meta property="og:description" content="安装安装环境 安装git安装hexo同步到github1234567#include &amp;lt;stdio.h&amp;gt;int main()&amp;#123;  int i,a;  int   return 0;&amp;#125; 头像解决 头像解决   加载条有误实际             宠物要先安装！！！       Error: Validation Failed.">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://yoursite.com/2018/11/18/image-text/1542546786398.png">
-<meta property="og:image" content="http://yoursite.com/2018/11/18/image-text/1542546786398.png">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/14065724-4729fa995d738054?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/14065724-80d17db0405bfc20?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/14065724-8d044c3c71826a51?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
@@ -547,7 +546,7 @@
 
       
         <p><img src="1542546786398.png" alt=""></p>
-<img src="/2018/11/18/image-text/1542546786398.png" title="This is an example image">
+
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h3><p><img src="http://upload-images.jianshu.io/upload_images/14065724-4729fa995d738054?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
 <h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><h2 id="同步到github"><a href="#同步到github" class="headerlink" title="同步到github"></a>同步到github</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> i,a;</span><br><span class="line">  <span class="keyword">int</span> </span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>头像解决</p>
@@ -687,7 +686,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -702,7 +701,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -723,7 +724,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">4</span>
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -860,7 +863,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count"> | &nbsp博客全站共594字</span>
+  <span class="post-count"> | &nbsp博客全站共1.3k字</span>
 </div>
 
         
@@ -988,6 +991,9 @@
 
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   
+   <script src="/js/src/md5.min.js"></script>
+   
    <script type="text/javascript">
         var gitalk = new Gitalk({
           clientID: '9e73fada1475ebce36bd',
@@ -995,7 +1001,9 @@
           repo: 'Gitalk',
           owner: 'Love-H',
           admin: ['Love-H'],
-          id: location.pathname,
+		  
+          id: md5(location.pathname),
+		  
           distractionFreeMode: 'true'
         })
         gitalk.render('gitalk-container')           

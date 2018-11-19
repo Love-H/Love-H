@@ -651,7 +651,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -666,7 +666,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -687,7 +689,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">4</span>
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -808,7 +812,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count"> | &nbsp博客全站共594字</span>
+  <span class="post-count"> | &nbsp博客全站共1.3k字</span>
 </div>
 
         
@@ -936,6 +940,9 @@
 
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   
+   <script src="/js/src/md5.min.js"></script>
+   
    <script type="text/javascript">
         var gitalk = new Gitalk({
           clientID: '9e73fada1475ebce36bd',
@@ -943,7 +950,9 @@
           repo: 'Gitalk',
           owner: 'Love-H',
           admin: ['Love-H'],
-          id: location.pathname,
+		  
+          id: md5(location.pathname),
+		  
           distractionFreeMode: 'true'
         })
         gitalk.render('gitalk-container')           
