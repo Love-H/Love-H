@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[快速搭博]]></title>
+    <url>%2F2018%2F11%2F19%2F%E5%BF%AB%E9%80%9F%E6%90%AD%E5%8D%9A%2F</url>
+    <content type="text"><![CDATA[安装安装 Node.js 环境 何为Node.js? Node.js是一個能夠在伺服器端運行JavaScript的開放原始碼、跨平台JavaScript 執行環境 安装网址：https://nodejs.org/en/ 查看是否安装成功：打开 cmd 命令行(win+r 输入 cmd 回车)执行 ： 12node -vnpm -v 安装成功之后显示版本号： 安装git 山大佛挡杀佛挡杀佛山 是地方等广泛的广东分公司 安装hedox 安装主题撒的双方的身份的复古风蛋糕 同步到github定时发送的防盗饭的功夫的 的说法地方等广泛的个]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[image_text]]></title>
     <url>%2F2018%2F11%2F18%2Fimage-text%2F</url>
     <content type="text"><![CDATA[安装安装环境 安装git安装hexo同步到github1234567#include &lt;stdio.h&gt;int main()&#123; int i,a; int return 0;&#125; 头像解决 头像解决 加载条有误实际 宠物要先安装！！！ Error: Validation Failed.]]></content>
@@ -8,7 +16,7 @@
   <entry>
     <title></title>
     <url>%2F2018%2F11%2F18%2F%E5%AE%89%E8%A3%85%2F</url>
-    <content type="text"><![CDATA[[TOC] 安装安装 Node.js 环境 何为Node.js? Node.js是一個能夠在伺服器端運行JavaScript的開放原始碼、跨平台JavaScript 執行環境 安装网址：https://nodejs.org/en/ 查看是否安装成功：打开 cmd 命令行(win+r 输入 cmd 回车)执行 ： 12node -vnpm -v 安装成功之后显示版本号： 安装git安装hedox安装主题同步到github]]></content>
+    <content type="text"><![CDATA[[TOC] 安装安装 Node.js 环境 何为Node.js? Node.js是一個能夠在伺服器端運行JavaScript的開放原始碼、跨平台JavaScript 執行環境 安装网址：https://nodejs.org/en/ 查看是否安装成功：打开 cmd 命令行(win+r 输入 cmd 回车)执行 ： 12node -vnpm -v 安装成功之后显示版本号： 安装git 山大佛挡杀佛挡杀佛山 是地方等广泛的广东分公司 安装hedox 安装主题撒的双方的身份的复古风蛋糕 同步到github定时发送的防盗饭的功夫的 的说法地方等广泛的个]]></content>
   </entry>
   <entry>
     <title><![CDATA[two]]></title>
