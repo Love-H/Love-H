@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[那些年搭博的血泪史]]></title>
+    <url>%2F2018%2F11%2F19%2F%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%90%AD%E5%8D%9A%E7%9A%84%E8%A1%80%E6%B3%AA%E5%8F%B2%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[快速搭博客——Hexo+Github]]></title>
     <url>%2F2018%2F11%2F19%2F%E5%BF%AB%E9%80%9F%E6%90%AD%E5%8D%9A%E5%AE%A2%E2%80%94%E2%80%94Hexo-Github%2F</url>
     <content type="text"><![CDATA[一. 背景其实早就有想搭建博客这个想法，但是因为觉得自己底子都还不够，又怎能写博去教人，自己写写笔记就好啦。于是每每想起搭博，就用这个借口来搪塞自己。后来逐渐的越来越懒，笔记也就慢慢的越做越少，虽想整个博客嫌麻烦，就一直耽搁着。最后趁着这次小鹿锅带头搭建个人博客，索性就咬咬牙，克服下自己的懒惰！ 二. 搭建三板斧俗话说得好：“磨刀不误砍柴工” ，搭建前，咱还得先磨磨刀——安装三板斧 安装 Node.js 环境 Node.js：能夠在伺服器端運行JavaScript的開放原始碼、跨平台JavaScript的执行坏境 下载地址：https://nodejs.org/en/ 一路点next，不要怂 查看是否安装成功：打开 cmd 命令行(win+r 输入 cmd 回车)执行 ： 12node -vnpm -v 安装git bash 下载地址：http://www.git-scm.com/download/ 同上，一路点next 验证是否成功安装完成后，在开始菜单里找到“Git”-&gt;“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！ 安装Hexo 创建个文件夹存放博客 创建好后，进入文件夹中，右击鼠标，点击 Git Bash Here 使用npm命令安装Hexo 1npm install -g hexo-cli //安装Hexo 这个安装时间较长耐心等待，安装完成后，初始化我们的博客，输入： 1hexo init blog //初始化博客 （注意，这里的命令都是作用在刚刚创建的Blog文件夹中） 为了检测我们的网站雏形，分别按顺序输入以下三条命令： 123hexo n HelloWorld //新建 text.mdhexo g //生成hexo s //启动服务预览 完成后，打开浏览器输入地址：localhost:4000可以看出我们写出第一篇博客，只不过我下图是我修改过的配置，和你的显示应该不一样 三. 同步到 Github申请仓库登录到GitHub,点击GitHub中的New repository创建新仓库 仓库名应该为：用户名.github.io用户名用户名用户名( 别问我怎么知道的，多麽痛的领悟！！！)这个用户名使用你的GitHub帐号名称代替，这是固定写法，比如我的仓库名为： 上传博客打开blog根目录里的_config.yml文件，如下图 随便用个编辑器打开，划到最下面，添加如下代码： 1234deploy: type: gitrepo: 这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .gitbranch: master 参考如下： 最后保存文件 安装Git部署插件输入命令：npm install hexo-deployer-git --save 安装好后，接着输入123hexo clean //清除静态网页hexo g hexo d //部署网站 打开浏览器，输入xxxx.github.io,你就会发现你的网站上线啦！]]></content>
@@ -42,8 +47,8 @@
     <url>%2F2018%2F11%2F18%2FmyFristPageForTag%2F</url>
     <content type="text"></content>
       <tags>
-        <tag>java</tag>
         <tag>c</tag>
+        <tag>java</tag>
         <tag>html</tag>
       </tags>
   </entry>
