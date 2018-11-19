@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-18T14:02:54.926Z</updated>
+  <updated>2018-11-19T03:00:50.637Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/11/18/image-text/"/>
     <id>http://yoursite.com/2018/11/18/image-text/</id>
     <published>2018-11-18T13:35:25.000Z</published>
-    <updated>2018-11-18T14:02:54.926Z</updated>
+    <updated>2018-11-19T03:00:50.637Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="1542546786398.png" alt=""></p><img src="/2018/11/18/image-text/1542546786398.png" title="This is an example image">]]></content>
+    <content type="html"><![CDATA[<p><img src="1542546786398.png" alt=""></p><img src="/2018/11/18/image-text/1542546786398.png" title="This is an example image"><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h3><p><img src="http://upload-images.jianshu.io/upload_images/14065724-4729fa995d738054?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p><h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><h2 id="同步到github"><a href="#同步到github" class="headerlink" title="同步到github"></a>同步到github</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> i,a;</span><br><span class="line">  <span class="keyword">int</span> </span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>头像解决</p><p>头像解决</p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-80d17db0405bfc20?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p>加载条有误实际</p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-8d044c3c71826a51?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-24ffaef9480f4b2a?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-553a3d6a629f156f?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-6828552330a9c8e9?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-7335c7c263e10887?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-6e80a4fa5e27ef6e?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p>宠物要先安装！！！</p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-838cc1f836c07cac?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-82caaeff891ac078?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-b2027c7ffc7d25e2?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p>Error: Validation Failed.</p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-71ad409fb4257716?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"> </p><p><img src="http://upload-images.jianshu.io/upload_images/14065724-82c37a3bdacf1d8c?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>]]></content>
     
     <summary type="html">
     
@@ -31,6 +31,7 @@
       
         &lt;p&gt;&lt;img src=&quot;1542546786398.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;img src=&quot;/2018/11/18/image-text/1542546786398.png&quot; title=&quot;This is an example image&quot;&gt;
+&lt;h2 id=&quot;安装
       
     
     </summary>
